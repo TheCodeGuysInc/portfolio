@@ -21,32 +21,12 @@ function App() {
       <div>
         <MatrixBackground />
 
-        <BrowserRouter>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/home">Home</Link>
-              </li>
-              <li>
-                <Link to="/projects">Projects</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-            </ul>
-          </nav>
-          <Switch>
-            <Route path="/home">
-              <HomePage />
-            </Route>
-            <Route path="/projects">
-              <Projects />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-          </Switch>
-        </BrowserRouter>
+        <div className="enter-site-button-container"></div>
+
+        <div className="test">
+          <div>Hello</div>
+          <div>GoodBye</div>
+        </div>
       </div>
     </>
   );
