@@ -1,13 +1,13 @@
 import React, { useEffect, useRef } from "react";
 
-function MatrixBackground({ timeout = 50 }) {
+function MatrixBackground({ timeout = 80 }) {
   const canvas = useRef();
 
   useEffect(() => {
     const context = canvas.current.getContext("2d");
 
-    const width = document.body.offsetWidth;
-    const height = document.body.offsetHeight;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
     canvas.current.width = width;
     canvas.current.height = height;
 

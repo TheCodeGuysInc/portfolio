@@ -18,16 +18,45 @@ import MatrixBackground from "./Components/MatrixEffect";
 function App() {
   return (
     <>
-      <div>
-        <MatrixBackground />
+      <BrowserRouter>
+        <div className="header-container">
+          <MatrixBackground />
+          <div className="code-guys-text">
+            <p>The Code Guys Inc</p>
+          </div>
 
-        <div className="enter-site-button-container"></div>
+          <div className="nav-links">
+            <div>
+              <Link className="link" to="/home">
+                Home
+              </Link>
+            </div>
 
-        <div className="test">
-          <div>Hello</div>
-          <div>GoodBye</div>
+            <div>
+              <Link className="link" to="/about">
+                About
+              </Link>
+            </div>
+            <div>
+              <Link className="link" to="/projects">
+                Projects
+              </Link>
+            </div>
+          </div>
         </div>
-      </div>
+
+        <Switch>
+          <Route path="/home">
+            <HomePage />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </>
   );
 }
