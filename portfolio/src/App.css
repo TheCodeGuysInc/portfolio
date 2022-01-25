@@ -1,5 +1,28 @@
-body {
-  margin: 0;
-  height: 100vh;
-  width: 100vw;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: black;
+}
+
+.header-container p {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.code-guys-text {
+  margin-left: 10%;
+}
+
+.nav-links {
+  margin-right: 10%;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  color: white;
 }

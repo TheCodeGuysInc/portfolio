@@ -1,5 +1,6 @@
 import React from "react";
+import Home from "./Home.css";
 
 export default function HomePage() {
-  return <h2>Home Page.</h2>;
+  return <div className="homepage-container">Hello</div>;
 }
