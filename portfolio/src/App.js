@@ -22,7 +22,7 @@ function App() {
         <div className="header-container">
           <MatrixBackground />
           <div className="code-guys-text">
-            <p>The Code Guys Inc</p>
+            <p>Code Guys Inc</p>
           </div>
 
           <div className="nav-links">

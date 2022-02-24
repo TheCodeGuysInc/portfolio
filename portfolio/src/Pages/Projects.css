@@ -1,7 +1,11 @@
-.homepage-container {
+.projects-container {
   height: 100vh;
   background-color: black;
   margin-left: 10%;
   margin-right: 10%;
   color: white;
+}
+
+p {
+  margin-top: 0px;
 }

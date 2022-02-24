@@ -1,5 +1,10 @@
 import React from "react";
+import "./Projects.css";
 
 export default function Projects() {
-  return <h2>Projects</h2>;
+  return (
+    <div className="projects-container">
+      <p>Recent Projects</p>
+    </div>
+  );
 }

@@ -1,5 +1,10 @@
 import React from "react";
+import "./About.css";
 
 export default function About() {
-  return <h2>About Code Guys Inc.</h2>;
+  return (
+    <div className="about-container">
+      <h1>About Us</h1>
+    </div>
+  );
 }
