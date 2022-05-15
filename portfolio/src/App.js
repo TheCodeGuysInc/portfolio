@@ -28,7 +28,7 @@ function App() {
           <div className="nav-links">
             <div>
               <Link className="link" to="/home">
-                If I change this Home
+                Aaron changed this
               </Link>
             </div>
 
